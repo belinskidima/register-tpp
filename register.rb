@@ -3,7 +3,6 @@ require 'securerandom'
 require 'jwt'
 require 'json'
 require 'rest-client'
-require 'pry'
 require_relative './signature_helper'
 
 #########################################
@@ -39,6 +38,7 @@ signature_helper = SignatureHelper.new(
 
 begin
   response = RestClient::Request.execute(@request_opts)
+  puts JSON.parse(response.body)
 rescue => e
   puts e.class
   puts e.response&.body
