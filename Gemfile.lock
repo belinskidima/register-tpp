@@ -1,0 +1,36 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.2.0)
+    domain_name (0.6.20240107)
+    http-accept (1.7.0)
+    http-cookie (1.0.7)
+      domain_name (~> 0.5)
+    json (2.7.6)
+    jwt (2.9.3)
+      base64
+    logger (1.6.1)
+    mime-types (3.6.0)
+      logger
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2024.1001)
+    netrc (0.11.0)
+    openssl (3.2.0)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  json
+  jwt
+  openssl
+  rest-client
+
+BUNDLED WITH
+   2.5.14

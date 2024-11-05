@@ -1,0 +1,11 @@
+{
+  "company": {
+    "name": "TEST LUCK",
+    "email": "email@saltedge.com"
+  },
+  "representative": {
+    "name": "Jonh Dow",
+    "email": "email@saltedge.com"
+  },
+  "redirect_uris": ["https://tpp.com/callback", "https://tpp.com/v2/callback"]
+}
